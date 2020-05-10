@@ -1,0 +1,16 @@
+{
+  "name": "landing-page1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://pavelsobolev1991.github.io/netflix-landing/",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.0"
+  }
+}
